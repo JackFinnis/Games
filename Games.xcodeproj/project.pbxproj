@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		04079F14298D445A003595C4 /* GamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04079F13298D445A003595C4 /* GamesApp.swift */; };
-		04079F16298D445A003595C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04079F15298D445A003595C4 /* ContentView.swift */; };
 		04079F18298D445A003595C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04079F17298D445A003595C4 /* Assets.xcassets */; };
-		04079F1B298D445A003595C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04079F1A298D445A003595C4 /* Preview Assets.xcassets */; };
+		04079F22298D446F003595C4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04079F21298D446F003595C4 /* RootView.swift */; };
+		04079F28298D51CE003595C4 /* GameOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04079F27298D51CE003595C4 /* GameOfLife.swift */; };
+		04079F2A298D51D8003595C4 /* SwingingSticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04079F29298D51D8003595C4 /* SwingingSticks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04079F10298D445A003595C4 /* Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Games.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04079F13298D445A003595C4 /* GamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesApp.swift; sourceTree = "<group>"; };
-		04079F15298D445A003595C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04079F17298D445A003595C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04079F1A298D445A003595C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04079F21298D446F003595C4 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		04079F27298D51CE003595C4 /* GameOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLife.swift; sourceTree = "<group>"; };
+		04079F29298D51D8003595C4 /* SwingingSticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingingSticks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,19 +54,12 @@
 			isa = PBXGroup;
 			children = (
 				04079F13298D445A003595C4 /* GamesApp.swift */,
-				04079F15298D445A003595C4 /* ContentView.swift */,
 				04079F17298D445A003595C4 /* Assets.xcassets */,
-				04079F19298D445A003595C4 /* Preview Content */,
+				04079F21298D446F003595C4 /* RootView.swift */,
+				04079F29298D51D8003595C4 /* SwingingSticks.swift */,
+				04079F27298D51CE003595C4 /* GameOfLife.swift */,
 			);
 			path = Games;
-			sourceTree = "<group>";
-		};
-		04079F19298D445A003595C4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				04079F1A298D445A003595C4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +120,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04079F1B298D445A003595C4 /* Preview Assets.xcassets in Resources */,
 				04079F18298D445A003595C4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04079F16298D445A003595C4 /* ContentView.swift in Sources */,
+				04079F28298D51CE003595C4 /* GameOfLife.swift in Sources */,
+				04079F22298D446F003595C4 /* RootView.swift in Sources */,
+				04079F2A298D51D8003595C4 /* SwingingSticks.swift in Sources */,
 				04079F14298D445A003595C4 /* GamesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
