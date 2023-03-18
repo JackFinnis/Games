@@ -9,11 +9,7 @@ import SwiftUI
 
 struct RootView: View {
     var body: some View {
-        TabView {
-            SwingingSticksView()
-            GameOfLife()
-        }
-        .tabViewStyle(.page)
+        GameOfLife()
     }
 }
 
