@@ -78,7 +78,7 @@ class SwingingSticks: SKScene {
         emitter.particleZPosition = -1
         emitter.particleColorSequence = nil
         emitter.particleColorBlendFactor = 1
-        emitter.particleColor = .init(white: UITraitCollection.current.userInterfaceStyle == .light ? 0.9 : 0.3, alpha: 1)
+        emitter.particleColor = .init(white: UITraitCollection.current.userInterfaceStyle == .light ? 0.9 : 0.2, alpha: 1)
         two.addChild(emitter)
         
         let fixed = SKPhysicsJointPin.joint(withBodyA: one.physicsBody!, bodyB: physicsBody!, anchor: view.center)

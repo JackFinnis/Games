@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-let size = 100
+let size = 50
 
 struct GameOfLife: View {
     @StateObject var vm = GameOfLifeVM()
