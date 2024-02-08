@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-let size = 50
+let size = 100
 
 struct GameOfLife: View {
     @StateObject var vm = GameOfLifeVM()
@@ -43,10 +43,8 @@ struct GameOfLife: View {
     }
 }
 
-struct GameOfLife_Previews: PreviewProvider {
-    static var previews: some View {
-        GameOfLife()
-    }
+#Preview {
+    GameOfLife()
 }
 
 class GameOfLifeVM: ObservableObject {
@@ -69,7 +67,7 @@ class GameOfLifeVM: ObservableObject {
     func next() {
         var tomorrow = [[Bool]](repeating: [Bool](repeating: false, count: size), count: size)
         
-        DispatchQueue.concurrentPerform(iterations: size) { row in
+        for row in 0..<size {
             for col in 0..<size {
                 var count = 0
                 for i in -1...1 {

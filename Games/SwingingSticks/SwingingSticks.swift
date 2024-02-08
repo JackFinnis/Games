@@ -8,13 +8,13 @@
 import SwiftUI
 import SpriteKit
 
-struct SwingingSticksView: View {
+struct SwingingSticks: View {
     @Environment(\.colorScheme) var colorScheme
     @State var reset = false
     
     var body: some View {
         GeometryReader { geo in
-            SpriteView(scene: SwingingSticks(size: geo.size), options: [.allowsTransparency])
+            SpriteView(scene: SwingingSticksScene(size: geo.size), options: [.allowsTransparency])
                 .id(reset)
         }
         .overlay(alignment: .bottomTrailing) {
@@ -30,13 +30,11 @@ struct SwingingSticksView: View {
     }
 }
 
-struct SwingingSticksView_Previews: PreviewProvider {
-    static var previews: some View {
-        SwingingSticksView()
-    }
+#Preview {
+    SwingingSticks()
 }
 
-class SwingingSticks: SKScene {
+class SwingingSticksScene: SKScene {
     var one = SKSpriteNode()
     var two = SKSpriteNode()
     var moving: SKSpriteNode?

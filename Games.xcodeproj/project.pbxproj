@@ -56,29 +56,21 @@
 			isa = PBXGroup;
 			children = (
 				04079F13298D445A003595C4 /* GamesApp.swift */,
-				04265B8029D25F1B00D7B588 /* Views */,
+				04265B8129D25F2400D7B588 /* SwingingSticks */,
+				04265B8229D25F3400D7B588 /* GameOfLife */,
 				04265B8329D25F4400D7B588 /* Helpers */,
 				04265B8429D25F5100D7B588 /* Resources */,
 			);
 			path = Games;
 			sourceTree = "<group>";
 		};
-		04265B8029D25F1B00D7B588 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				04265B8129D25F2400D7B588 /* Swinging */,
-				04265B8229D25F3400D7B588 /* GameOfLife */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		04265B8129D25F2400D7B588 /* Swinging */ = {
+		04265B8129D25F2400D7B588 /* SwingingSticks */ = {
 			isa = PBXGroup;
 			children = (
 				04079F29298D51D8003595C4 /* SwingingSticks.swift */,
 				0440614E29C57D3D00025A41 /* Trail.sks */,
 			);
-			path = Swinging;
+			path = SwingingSticks;
 			sourceTree = "<group>";
 		};
 		04265B8229D25F3400D7B588 /* GameOfLife */ = {
@@ -306,7 +298,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Games/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4CQW4CFFYT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -337,7 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Games/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4CQW4CFFYT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
